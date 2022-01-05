@@ -1,0 +1,68 @@
+#section-grid{
+    width: 40%;
+    margin: 0 auto 2rem;
+    display:block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    /* for box shadow on hover */
+    transition: all 0.3 linear;
+}
+#section-grid :hover{
+    /* Not working 
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.2);  */
+}
+img{
+    height: 20rem;
+    width: 100%;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    object-fit: contain;
+}
+.flex-line{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.flex-line div {
+    text-align: center;
+}
+.cost{
+    padding: 0 0.5rem;
+    color: hsl(205, 78%, 60%);;
+    background-color: hsl(205, 100%, 96%);;
+}
+.textBox{
+    margin: 1rem;
+}
+
+.info{
+    margin: 0.9rem 0;
+    
+}
+button{
+    color: hsl(205, 78%, 60%);
+    font-size: 1rem;   
+}
+button:hover{
+    cursor:pointer;
+}
+.btn{
+    width: 50%;
+    margin: 0 auto 1rem;
+    padding: 0.3rem;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1rem;
+    display: block;
+    color: hsl(360, 67%, 44%);;
+    border: 1px solid hsl(360, 67%, 44%);;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+
+.readbtn{
+    border: transparent;   
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto 1rem;
+}
